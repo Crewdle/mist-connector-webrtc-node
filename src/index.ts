@@ -7,4 +7,8 @@ import { WebRTCBrowserPeerConnectionConnector } from '@crewdle/mist-connector-we
 global.RTCPeerConnection = RTCPeerConnection;
 global.WebSocket = WebSocket as any;
 
+/**
+ * WebRTC connector for the Node.js environment for peer connections.
+ * @category Connector
+ */
 export class WebRTCNodePeerConnectionConnector extends WebRTCBrowserPeerConnectionConnector {}

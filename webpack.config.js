@@ -6,7 +6,7 @@ module.exports = () => {
     entry: './src/index.ts',
     target: 'node',
     externals: [nodeExternals({
-      allowlist: ['node-datachannel/polyfill']
+      allowlist: ['node-datachannel/polyfill', 'node-datachannel']
     })],
     devtool: false,
     module: {

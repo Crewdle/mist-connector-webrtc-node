@@ -1,11 +1,24 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
+    /* Language and Environment */
+    "target": "esnext",
+    "types": ["node", "ws"],
+
+    /* Modules */
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "baseUrl": "src/",
+
+    /* Emit */
     "declaration": true,
-    "strict": true,
     "esModuleInterop": true,
-    "types": ["node", "ws"]
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+
+    /* Completeness */
+    "skipLibCheck": true
   },
   "include": ["src"],
 }

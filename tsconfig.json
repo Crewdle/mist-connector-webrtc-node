@@ -1,25 +1,20 @@
 {
   "compilerOptions": {
-    /* Language and Environment */
-    "target": "esnext",
-    "types": ["node", "ws"],
-
-    /* Modules */
-    "module": "esnext",
-    "moduleResolution": "Node",
-    "baseUrl": "src/",
-
-    /* Emit */
-    "declaration": true,
-    "outDir": "./dist/types",
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-
-    /* Type Checking */
-    "strict": true,
-
-    /* Completeness */
-    "skipLibCheck": true
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "lib": ["es6"],
+    "declaration": true,
+    "declarationMap": false,
+    "declarationDir": "./dist/types",
+    "sourceMap": false
   },
-  "include": ["src"],
+  "include": ["src/**/*"], // Files to be included in the compilation process
+  "exclude": ["node_modules", "dist", "test"] // Exclude these directories
 }

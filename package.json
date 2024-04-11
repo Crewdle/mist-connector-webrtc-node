@@ -21,9 +21,9 @@
     "dist/"
   ],
   "devDependencies": {
+    "@crewdle/web-sdk-types": "^1.0.7",
     "@types/node": "^20.11.27",
     "@types/ws": "^8.5.10",
-    "node-loader": "^2.0.0",
     "ts-loader": "^9.5.1",
     "typescript": "^5.4.2",
     "webpack": "^5.90.3",

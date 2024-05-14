@@ -1,6 +1,6 @@
 {
   "name": "@crewdle/mist-connector-webrtc-node",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A Crewdle Mist connector to use WebRTC for peer connections in Node.js",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@crewdle/mist-connector-webrtc-browser": "^1.0.4",
-    "node-datachannel": "^0.7.0",
-    "ws": "^8.16.0"
+    "node-datachannel": "^0.9.0",
+    "ws": "^8.17.0"
   }
 }
